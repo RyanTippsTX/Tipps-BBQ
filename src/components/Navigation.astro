@@ -1,0 +1,25 @@
+---
+import Social from './Social.astro';
+const allPosts = await Astro.glob('../pages/posts/*.md');
+---
+
+<nav>
+  <a href="/">Home</a>
+  <a href="/about/">About</a>
+  <Social platform="twitter" username="RyanTippsTX" />
+  {
+    allPosts.map((post) => (
+      <li>
+        <a href={post.url}>{post.frontmatter.title}</a>
+      </li>
+    ))
+  }
+</nav>
+
+<style>
+  nav {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+</style>
