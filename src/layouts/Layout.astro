@@ -1,8 +1,9 @@
 ---
 const siteTitle = 'The Tipps BBQ Experience';
 const siteDescription = 'Menu for the Tipps BBQ Experience';
+const author = 'Ryan Tipps';
 const siteUrl = 'https://tippsbbq.com';
-// const siteImageUrl = 'https://tippsbbq.com/
+// const siteImageUrl = 'https://tippsbbq.com/images/og-image.jpg';
 ---
 
 <!doctype html>
@@ -14,7 +15,28 @@ const siteUrl = 'https://tippsbbq.com';
     <title>{siteTitle}</title>
     <meta name="description" content={siteDescription} />
     <meta name="keywords" content="Tipps BBQ, brisket, barbeque, Ryan Tipps" />
-    <meta name="author" content="Ryan Tipps" />
+    <meta name="author" content={author} />
+
+    <!-- schema.org -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Restaurant",
+        "name": {siteTitle},
+        "description": {siteDescription},
+        // "image": {
+        //   "@type": "ImageObject",
+        //   "url": {siteImageUrl},
+        //   "width": 1200,
+        //   "height": 630
+        // },
+        "author": {
+          "@type": "Person",
+          "name": {author}
+        }
+      }
+      </script>
+      
 
     <!-- open graph -->
     <meta property="og:title" content={siteTitle} />
