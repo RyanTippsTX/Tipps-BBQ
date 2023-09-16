@@ -17,27 +17,6 @@ const siteImageUrl = new URL('/cutting-board.jpg', siteUrl).href;
     <meta name="keywords" content="Tipps BBQ, brisket, barbeque, Ryan Tipps" />
     <meta name="author" content={author} />
 
-    <!-- schema.org -->
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Restaurant",
-        "name": {siteTitle},
-        "description": {siteDescription},
-        "image": {
-          "@type": "ImageObject",
-          "url": {siteImageUrl},
-          "width": 4032,
-          "height": 3024
-        },
-        "author": {
-          "@type": "Person",
-          "name": {author}
-        }
-      }
-      </script>
-      
-
     <!-- open graph -->
     <meta property="og:title" content={siteTitle} />
     <meta property="og:description" content={siteDescription} />
