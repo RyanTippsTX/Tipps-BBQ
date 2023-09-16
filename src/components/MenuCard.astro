@@ -1,15 +1,12 @@
-<div class="p-8 prose">
+<div class="prose bg-white shadow-md rounded-md p-4">
   <slot />
 </div>
 
 <style>
-  .prose {
-    @apply text-red-200;
-  }
   .prose :global(h2) {
-    @apply mb-4 text-xl font-bold underline;
+    @apply text-lg font-semibold pb-2;
   }
   .prose :global(li) {
-    @apply text-sm;
+    @apply text-sm pb-2;
   }
 </style>

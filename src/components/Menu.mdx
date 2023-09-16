@@ -1,6 +1,11 @@
 import MenuCard from '../components/MenuCard.astro'
 
-<MenuCard>
+
+<section id="menu" class="bg-gray-100 py-8">
+  <div class="container mx-auto max-w-screen-lg">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div class="flex flex-col gap-y-4">
+        <MenuCard>
 ## Meats
 
 - Brisket
@@ -28,8 +33,10 @@ import MenuCard from '../components/MenuCard.astro'
 - Dried Venison Sausage
 - Thanksgiving Iced Latte
 </MenuCard>
+      </div>
 
-<MenuCard>
+      <div class="flex flex-col gap-y-4">
+        <MenuCard>
 ## Sides
 
 - Tipps's BBQ Beans
@@ -60,7 +67,9 @@ Flour or Corn Tortilla with:
 
 Extras: Avocado, Tomato, Onion, Jalapeno, Cheese
 </MenuCard>
+      </div>
 
+      <div class="flex flex-col gap-y-4">
 <MenuCard>
 ## Breakfast Baked Goods
 
@@ -87,4 +96,15 @@ Extras: Avocado, Tomato, Onion, Jalapeno, Cheese
 - Grilled Vegetable Shish Kabobs
 - Grilled Broccolini
 </MenuCard>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
 
