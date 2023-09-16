@@ -1,6 +1,8 @@
 ---
 const siteTitle = 'The Tipps BBQ Experience';
 const siteDescription = 'Menu for the Tipps BBQ Experience';
+const siteUrl = 'https://tippsbbq.com';
+// const siteImageUrl = 'https://tippsbbq.com/
 ---
 
 <!doctype html>
@@ -17,10 +19,17 @@ const siteDescription = 'Menu for the Tipps BBQ Experience';
     <!-- open graph -->
     <meta property="og:title" content={siteTitle} />
     <meta property="og:description" content={siteDescription} />
-    <!-- <meta property="og:image" content="URL_TO_YOUR_IMAGE" /> -->
-    <!-- <meta property="og:url" content="URL_TO_YOUR_PAGE" /> -->
+    <!-- <meta property="og:image" content={siteImageUrl} /> -->
+    <meta property="og:url" content={siteUrl} />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content={siteTitle} />
+
+    <!--- twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@RyanTippsTX" />
+    <meta name="twitter:title" content={siteTitle} />
+    <meta name="twitter:description" content={siteDescription} />
+    <!-- <meta name="twitter:image" content={siteImage} /> -->
 
     <link
       rel="icon"
