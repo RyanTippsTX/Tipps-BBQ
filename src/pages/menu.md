@@ -1,3 +1,8 @@
+---
+title: 'The greatest post of all time'
+author: 'Ben'
+---
+
 ## Meats
 
 - Brisket
@@ -67,3 +72,4 @@ Extras: Avocado, Tomato, Onion, Jalapeno, Cheese
 - Grilled Sauerkraut with Onions & Bell Peppers
 - Grilled Vegetable Shish Kabobs
 - Grilled Broccolini
+
