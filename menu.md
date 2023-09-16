@@ -1,0 +1,69 @@
+## Meats
+
+- Brisket
+- Pork Spare Ribs
+- Beef Ribs
+- Chicken
+- Chopped Brisket Jalapeno Poppers
+- Ribeye Steak (BBQ-Style)
+- Venison Steak, Bacon Wrapped
+
+## Sauces
+
+- Lady Bird's BBQ Sauce
+- Central Texas BBQ Sauce
+- Franklin's Espresso BBQ Sauce
+- Gold BBQ Sauce
+
+## Snacks
+
+- Smoked Cheez-it's
+- Dried Venison Sausage
+- Thanksgiving Iced Latte
+
+## Sides
+
+- Tipps's BBQ Beans
+- Grandma B's German Potato Salad
+- Steve's Mexicorn Salad
+- Keck's Green Beans
+- Smoked Corn on the Cob
+- Ranch Style Beans
+
+## Desserts
+
+- Dutch Oven Blueberry Cobbler
+- Tres Leches
+- Andy's Arroz Con Leche
+
+## Breakfast Tacos
+
+Flour or Corn Tortilla with:
+
+- Brisket & Egg
+- Steak & Egg
+- Bacon & Egg
+- Bean & Cheese
+
+Extras: Avocado, Tomato, Onion, Jalapeno, Cheese
+
+## Breakfast Baked Goods
+
+- Dutch Apple Coffee Cake
+- Alex's Banana Bread
+
+## Non-BBQ Mains
+
+- Lady Bird's Pedernales River Chili
+- KC's Sweet Chicken Bacon Wraps
+- Mom's Meatloaf
+- Mom's Tuna Burgers
+
+## Non-BBQ Sides
+
+- Baked Tomatoes with Parmesan
+- Sauteed Spinach with Garlic & Cherry Tomatoes
+- Dirty Street Corn
+- Grilled Sauerkraut with Onions & Bell Peppers
+- Grilled Vegetable Shish Kabobs
+- Grilled Broccolini
