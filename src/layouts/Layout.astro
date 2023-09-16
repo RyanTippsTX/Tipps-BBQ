@@ -3,7 +3,7 @@ const siteTitle = 'The Tipps BBQ Experience';
 const siteDescription = 'Menu for the Tipps BBQ Experience';
 const author = 'Ryan Tipps';
 const siteUrl = 'https://tippsbbq.com';
-// const siteImageUrl = 'https://tippsbbq.com/images/og-image.jpg';
+const siteImageUrl = new URL('/cutting-board.jpg', siteUrl).href;
 ---
 
 <!doctype html>
@@ -24,12 +24,12 @@ const siteUrl = 'https://tippsbbq.com';
         "@type": "Restaurant",
         "name": {siteTitle},
         "description": {siteDescription},
-        // "image": {
-        //   "@type": "ImageObject",
-        //   "url": {siteImageUrl},
-        //   "width": 1200,
-        //   "height": 630
-        // },
+        "image": {
+          "@type": "ImageObject",
+          "url": {siteImageUrl},
+          "width": 4032,
+          "height": 3024
+        },
         "author": {
           "@type": "Person",
           "name": {author}
@@ -41,7 +41,7 @@ const siteUrl = 'https://tippsbbq.com';
     <!-- open graph -->
     <meta property="og:title" content={siteTitle} />
     <meta property="og:description" content={siteDescription} />
-    <!-- <meta property="og:image" content={siteImageUrl} /> -->
+    <meta property="og:image" content={siteImageUrl} />
     <meta property="og:url" content={siteUrl} />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content={siteTitle} />
@@ -51,8 +51,9 @@ const siteUrl = 'https://tippsbbq.com';
     <meta name="twitter:site" content="@RyanTippsTX" />
     <meta name="twitter:title" content={siteTitle} />
     <meta name="twitter:description" content={siteDescription} />
-    <!-- <meta name="twitter:image" content={siteImage} /> -->
+    <meta name="twitter:image" content={siteImageUrl} />
 
+    <!-- favicon -->
     <link
       rel="icon"
       href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🥩</text></svg>"
