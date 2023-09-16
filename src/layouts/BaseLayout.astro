@@ -1,4 +1,6 @@
 ---
+import Hero from '../components/Hero.astro';
+
 const siteTitle = 'The Tipps BBQ Experience';
 const siteDescription = 'Menu for the Tipps BBQ Experience';
 const author = 'Ryan Tipps';
@@ -61,6 +63,7 @@ const siteImageUrl = new URL('/cutting-board.jpg', siteUrl).href;
     <meta name="generator" content={Astro.generator} />
   </head>
   <body>
+    <Hero />
     <slot />
   </body>
 </html>
